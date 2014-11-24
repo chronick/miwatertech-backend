@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby '2.1.2'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -38,6 +39,10 @@ end
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.0'
+end
+
+group :production do
+  gem 'rails-12factor'
 end
 
 # Use ActiveModel has_secure_password
