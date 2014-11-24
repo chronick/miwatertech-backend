@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  root 'root#show'
+
   devise_for :admin_users, ActiveAdmin::Devise.config
   devise_for :users
   ActiveAdmin.routes(self)
@@ -12,6 +14,8 @@ Rails.application.routes.draw do
       get 'me/accounts/:account_id/usage' => 'me#usage'
     end
   end
+
+  match '*a', to: 'root#show', via: [:get, :post, :put, :delete]
 
 
   # The priority is based upon order of creation: first created -> highest priority.
