@@ -265,6 +265,7 @@
     <orderEntry type="library" scope="PROVIDED" name="actionmailer (v4.1.0, RVM: ruby-2.1.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="actionpack (v4.1.0, RVM: ruby-2.1.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="actionview (v4.1.0, RVM: ruby-2.1.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="active_skin (v0.0.8, RVM: ruby-2.1.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activeadmin (v1.0.0.pre@a2cd96, RVM: ruby-2.1.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activemodel (v4.1.0, RVM: ruby-2.1.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activerecord (v4.1.0, RVM: ruby-2.1.2) [gem]" level="application" />
@@ -291,7 +292,6 @@
     <orderEntry type="library" scope="PROVIDED" name="jbuilder (v2.2.5, RVM: ruby-2.1.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jquery-rails (v3.1.2, RVM: ruby-2.1.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jquery-ui-rails (v5.0.2, RVM: ruby-2.1.2) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="json (v1.8.1, RVM: ruby-2.1.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="kaminari (v0.16.1, RVM: ruby-2.1.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mail (v2.5.4, RVM: ruby-2.1.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mime-types (v1.25.1, RVM: ruby-2.1.2) [gem]" level="application" />

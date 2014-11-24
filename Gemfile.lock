@@ -32,6 +32,7 @@ GEM
       activesupport (= 4.1.0)
       builder (~> 3.1)
       erubis (~> 2.7.0)
+    active_skin (0.0.8)
     activemodel (4.1.0)
       activesupport (= 4.1.0)
       builder (~> 3.1)
@@ -195,6 +196,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  active_skin
   activeadmin!
   coffee-rails (~> 4.0.0)
   devise

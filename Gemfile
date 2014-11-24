@@ -25,6 +25,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 
 gem 'activeadmin', github: 'activeadmin'
+gem 'active_skin'
 gem 'devise'
 
 group :doc do
