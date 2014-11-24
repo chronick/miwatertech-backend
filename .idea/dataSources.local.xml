@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails backend: development" uuid="d5464efa-e49d-408e-ba05-7290fd379aa9">
+      <schema-pattern>*</schema-pattern>
+      <default-schemas>*.pg_catalog *.public</default-schemas>
+    </data-source>
+    <data-source name="Rails backend: test" uuid="af6c00a5-2727-463a-83e7-24945e5d1b9a">
+      <schema-pattern>*</schema-pattern>
+      <default-schemas>*.pg_catalog *.public</default-schemas>
+    </data-source>
+    <data-source name="Rails backend: production" uuid="72d10aeb-07ed-471e-b303-bbeac1d768ad">
+      <first-sync>true</first-sync>
+      <user-name>miwater</user-name>
+      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddfe8dfebdfe9dfe1dfefdfe4dfeedff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
+    </data-source>
+  </component>
+</project>

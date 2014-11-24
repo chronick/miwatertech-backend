@@ -1,0 +1,17 @@
+      Prefix Verb   URI Pattern                  Controller#Action
+    readings GET    /readings(.:format)          readings#index
+             POST   /readings(.:format)          readings#create
+ new_reading GET    /readings/new(.:format)      readings#new
+edit_reading GET    /readings/:id/edit(.:format) readings#edit
+     reading GET    /readings/:id(.:format)      readings#show
+             PATCH  /readings/:id(.:format)      readings#update
+             PUT    /readings/:id(.:format)      readings#update
+             DELETE /readings/:id(.:format)      readings#destroy
+    accounts GET    /accounts(.:format)          accounts#index
+             POST   /accounts(.:format)          accounts#create
+ new_account GET    /accounts/new(.:format)      accounts#new
+edit_account GET    /accounts/:id/edit(.:format) accounts#edit
+     account GET    /accounts/:id(.:format)      accounts#show
+             PATCH  /accounts/:id(.:format)      accounts#update
+             PUT    /accounts/:id(.:format)      accounts#update
+             DELETE /accounts/:id(.:format)      accounts#destroy
