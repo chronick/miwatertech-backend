@@ -18,10 +18,10 @@ class Api::V1::MeController < ApplicationController
 
   def usage
     @account = @user.accounts.where(:id => params[:account_id]).first
-    unless @account.nil?
-      respond_with @account.readings
-    else
+    if @account.nil?
       respond_with @account, status: :not_found
+    else
+      respond_with @account.readings
     end
   end
 

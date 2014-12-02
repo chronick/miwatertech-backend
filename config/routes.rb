@@ -1,5 +1,11 @@
 Rails.application.routes.draw do
 
+  namespace :api do
+  namespace :v1 do
+    get 'integration/readings'
+    end
+  end
+
   root 'root#show'
 
   devise_for :admin_users, ActiveAdmin::Devise.config
@@ -12,6 +18,8 @@ Rails.application.routes.draw do
       put 'me' => 'me#update'
       get 'me/accounts' => 'me#accounts'
       get 'me/accounts/:account_id/usage' => 'me#usage'
+
+      post 'integration/readings' => 'integration#readings'
     end
   end
 
