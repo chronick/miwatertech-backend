@@ -4,7 +4,7 @@ class Api::V1::IntegrationController < ApplicationController
   def readings
     begin
       @readings = Reading.create(permitted_params[:readings])
-      if @readings.all? { |t| t.valid? }
+      if @readings.to_a.all? { |t| t.valid? }
         render json: { message: 'Accepted' }, status: 202
       else
         render json: { errors: @readings.errors.full_messages }, status: 400
